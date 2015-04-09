@@ -1,0 +1,19 @@
+.jumbotron {
+	background-color: coral;
+	height: 500px;
+	padding-top: 150px;
+}
+p {
+	color: gray;
+}
+.circle {
+	background-color: #bbbbbb;
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+	transition: transform .5s;
+}
+div.circle:hover {
+	transform: rotateY(180deg);
+	background-color: coral;
+}
